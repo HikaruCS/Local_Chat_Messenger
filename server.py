@@ -32,7 +32,7 @@ while True:
         while True:
             # ここでサーバは接続からデータを読み込む
             # 一度に最大16バイト読み込む
-            data = connection.recv(16)
+            data = connection.recv(32)
 
             # 受け取ったデータをバイナリ形式から文字列に変換(utf-8)
             data_str = data.decode('utf-8')
