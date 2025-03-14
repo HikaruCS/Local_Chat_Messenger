@@ -1,5 +1,6 @@
 # Local Chat Messenger
-Pythonのソケット通信とfakerパッケージを使用して、クライアントサーバ間で情報をやり取りするシンプルなアプリケーション
+Pythonのソケット通信とfakerパッケージを使用して、クライアントサーバ間で情報をやり取りするシンプルなアプリケーション<br>
+Recursion (https://recursionist.io/) のバックエンドプロジェクト2で作成したものです。
 
 ## 操作方法
 1. ターミナルを2つ開く(server.py用とclient.py用に1つずつ)
